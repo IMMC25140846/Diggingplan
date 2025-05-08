@@ -1,0 +1,68 @@
+vehicle_capacity: 120
+
+num_vehicles: 25
+
+split_mode: "ratio"
+
+max_iterations: 20
+
+
+
+num_ants: 50
+alpha: 1.0
+beta: 3.0
+rho: 0.1
+Q: 100
+
+time_weight: 0.5
+cost_weight: 0.5
+
+
+if_show: True
+
+
+v: 30000
+price_hour: 160
+digging_v: 66
+ 
+n_clusters: 10
+height_threshold: 3.6
+
+
+
+vehicles_lower_bounds: 10
+vehicles_upper_bounds: 50
+n_clusters_lower_bounds: 5
+n_clusters_upper_bounds: 15
+height_threshold_lower_bounds: 0.1 
+height_threshold_upper_bounds: 100
+
+
+num_particles: 30
+max_iter: 20
+w: 0.7
+c1: 1.5
+c2: 1.5
+minimize: true
+
+early_stop: true
+early_stop_iter: 10
+early_stop_tol: 100
+
+
+
+dynamic_params: true
+w_strategy: "nonlinear"  
+w_min: 0.4
+w_max: 0.9
+c_strategy: "adaptive"  
+
+
+
+pruning: true
+pruning_start: 5
+pruning_threshold: 0.5
+pruning_count: 3
+min_particles: 5
+
+problem_type: "road"
